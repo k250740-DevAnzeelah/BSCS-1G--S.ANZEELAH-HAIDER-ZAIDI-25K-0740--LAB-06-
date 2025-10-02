@@ -4,10 +4,10 @@ int main(){
 int a, b,i;
 int answer=0, quot=0;
 
-printf("Enter first number you want to mulptiply: ");//5
+printf("Enter first number you want to mulptiply and divide: ");//5
 scanf("%d",&a);
 
-printf("Enter second number you want to mulptiply: ");//4
+printf("Enter second number you want to mulptiply and divide: ");//4
 scanf("%d",&b);
 
 for(i=0; i<b; i++){
@@ -23,4 +23,5 @@ quot++;
 printf("The division of two numbers is %d", quot);
 
 return 0;
+
 }
